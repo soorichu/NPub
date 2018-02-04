@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    }
+.chapter, .section {
+    page-break-before: always;
+    }
+h1, h2, h3, h4 {
+    text-align: center;
+    clear: both;
+    }
+h2, h3 {
+    font-size: 1.4em;
+    line-height: 2em;
+    }
+h3 span {
+    line-height: 2em;
+    font-size: 0.7em;
+    font-weight: bold;
+    }
+h4 {
+    font-size: 1em;
+    line-height: 1em;
+    margin-top: 2em;
+    margin-bottom: 0;
+    }
+.h42 {
+    margin-bottom: 1em;
+    }
+
+.image_tag{
+    font-size: smaller;
+    text-align: center;
+}
+
+.image{
+    text-align: center;
+}

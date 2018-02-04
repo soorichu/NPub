@@ -1,0 +1,380 @@
+
+다음뉴스
+종합 http://media.daum.net/rss/today/primary/all/rss2.xml
+연예 http://media.daum.net/rss/today/primary/entertain/rss2.xml
+스포츠 http://media.daum.net/rss/today/primary/sports/rss2.xml
+사회 http://media.daum.net/rss/part/primary/society/rss2.xml
+정치 http://media.daum.net/rss/part/primary/politics/rss2.xml
+경제 http://media.daum.net/rss/part/primary/economic/rss2.xml
+국제 http://media.daum.net/rss/part/primary/foreign/rss2.xml
+문화·생활 http://media.daum.net/rss/part/primary/culture/rss2.xml
+연예 http://media.daum.net/rss/part/primary/entertain/rss2.xml
+IT·과학 http://media.daum.net/rss/part/primary/digital/rss2.xml
+오늘의 TV뉴스 http://media.daum.net/rss/today/tvnews/rss2.xml
+
+조선닷컴
+[뉴스]전체기사 http://www.chosun.com/site/data/rss/rss.xml
+[뉴스]주요뉴스 http://myhome.chosun.com/rss/www_section_rss.xml
+[뉴스]정치 http://www.chosun.com/site/data/rss/politics.xml
+[뉴스]국제 http://www.chosun.com/site/data/rss/international.xml
+[뉴스]문화 http://www.chosun.com/site/data/rss/culture.xml
+[뉴스]사설ㆍ칼럼 http://www.chosun.com/site/data/rss/editorials.xml
+[뉴스]동영상 http://www.chosun.com/site/data/rss/video.xml
+[뉴스]인포그래픽 뉴스 http://inside.chosun.com/rss/rss.xml
+[뉴스]랭킹(인기기사) http://newsplus.chosun.com/hitdata/xml/index/index.xml
+[조선비즈]전체기사 http://biz.chosun.com/site/data/rss/rss.xml
+[조선비즈]뉴스 http://biz.chosun.com/site/data/rss/news.xml
+[조선비즈]Market http://biz.chosun.com/site/data/rss/market.xml
+[조선비즈]정책/금융 http://biz.chosun.com/site/data/rss/policybank.xml
+[조선비즈]부동산 http://biz.chosun.com/site/data/rss/estate.xml
+[조선비즈]기업 http://biz.chosun.com/site/data/rss/enterprise.xml
+[조선비즈]글로벌경제 http://biz.chosun.com/site/data/rss/global.xml
+[조선비즈]위클리비즈 http://biz.chosun.com/site/data/rss/weeklybiz.xml
+[조선비즈]랭킹(인기기사) http://newsplus.chosun.com/hitdata/xml/chosunbiz/index/index.xml
+[엔터테인먼트]스포츠 http://www.chosun.com/site/data/rss/sports.xml
+[엔터테인먼트]연예 http://www.chosun.com/site/data/rss/ent.xml
+[엔터테인먼트]더스타 http://thestar.chosun.com/site/data/rss/rss.xml
+[엔터테인먼트]키위닷컴 http://keywui.chosun.com/rss/rss.xml
+[엔터테인먼트]랭킹(인기기사)스포츠 http://newsplus.chosun.com/hitdata/xml/se/sports/index.xml
+[엔터테인먼트]랭킹(인기기사)연예 http://newsplus.chosun.com/hitdata/xml/se/star/index.xml
+[뉴스플러스]뉴스플러스 http://newsplus.chosun.com/site/data/rss/news.xml
+[뉴스플러스]인사이드 http://newsplus.chosun.com/inside/xml/inside_rss.xml
+[뉴스플러스]단미 http://danmee.chosun.com/site/data/rss/rss.xml
+[뉴스플러스]헬스 http://health.chosun.com/site/data/rss/rss.xml
+[뉴스플러스]카리뷰 http://careview.chosun.com/site/data/rss/rss.xml
+[뉴스플러스]트래블N http://travel.chosun.com/site/data/rss/rss.xml
+[뉴스플러스]리뷰 http://review.chosun.com/site/data/rss/rss.xml
+[뉴스플러스]북스 http://books.chosun.com/site/data/rss/rss.xml
+[뉴스플러스]아트N http://art.chosun.com/site/data/rss/rss.xml
+[뉴스플러스]소년조선일보 http://myhome.chosun.com/rss/kid_section_rss.xml
+[뉴스플러스]건강칼럼 http://health.chosun.com/rss/column.xml
+[뉴스플러스]랭킹(인기기사) http://newsplus.chosun.com/hitdata/xml/newsplus/index/index.xml
+[토론마당]시사발언대 http://forum.chosun.com/rss/RSSServlet?bbs_type=S
+[토론마당]공감토론 http://forum.chosun.com/rss/RSSServlet?bbs_type=P
+
+중앙일보
+[뉴스]전체기사 http://rss.joins.com/joins_news_list.xml
+[뉴스]주요기사 http://rss.joins.com/joins_homenews_list.xml
+[뉴스]경제 http://rss.joins.com/joins_money_list.xml
+[뉴스]사회 http://rss.joins.com/joins_life_list.xml
+[뉴스]정치 http://rss.joins.com/joins_politics_list.xml
+[뉴스]라이프 http://rss.joins.com/news/joins_lifenews_total.xml
+[뉴스]지구촌 http://rss.joins.com/joins_world_list.xml
+[뉴스]문화 http://rss.joins.com/joins_culture_list.xml
+[뉴스]IT과학 http://rss.joins.com/joins_it_list.xml
+[뉴스]건강,IT,과학 http://rss.joins.com/news/joins_health_list.xml
+[뉴스]J-Only http://rss.joins.com/news/joins_jonly_list.xml
+[뉴스]CNN한글 http://rss.joins.com/news/joins_cnnnews_total.xml
+[뉴스]중앙데일리 http://rss.joins.com/news/joins_joongangdaily_news.xml
+[스포츠/연예]연예전체 http://rss.joins.com/joins_star_list.xml
+[스포츠/연예]야구 http://rss.joins.com/news/joins_sports_baseball_list.xml
+[스포츠/연예]축구 http://rss.joins.com/news/joins_sports_soccer_list.xml
+[스포츠/연예]골프 http://rss.joins.com/news/joins_sports_golf_list.xml
+[스포츠/연예]스포츠일반 http://rss.joins.com/news/joins_sports_etc_list.xml
+[스포츠/연예]방송 http://rss.joins.com/news/joins_star_entertainment_list.xml
+[스포츠/연예]영화 http://rss.joins.com/news/joins_star_movie_list.xml
+[스포츠/연예]연예일반 http://rss.joins.com/news/joins_star_etc_list.xml
+[많이본뉴스]전체기사 http://rss.joins.com/sonagi/joins_sonagi_total_list.xml
+[많이본뉴스]경제 http://rss.joins.com/sonagi/joins_sonagi_money_list.xml
+[많이본뉴스]스포츠 http://rss.joins.com/sonagi/joins_sonagi_sports_list.xml
+[많이본뉴스]연예 http://rss.joins.com/sonagi/joins_sonagi_star_list.xml
+[많이본뉴스]사회 http://rss.joins.com/sonagi/joins_sonagi_life_list.xml
+[많이본뉴스]정치 http://rss.joins.com/sonagi/joins_sonagi_politics_list.xml
+[많이본뉴스]지구촌 http://rss.joins.com/sonagi/joins_sonagi_world_list.xml
+[많이본뉴스]IT과학 http://rss.joins.com/sonagi/joins_sonagi_it_list.xml
+[많이본뉴스]사설 http://rss.joins.com/sonagi/joins_sonagi_opinion_list.xml
+
+한겨레
+전체기사 http://www.hani.co.kr/rss/
+정치 http://www.hani.co.kr/rss/politics/
+경제 http://www.hani.co.kr/rss/economy/
+사회 http://www.hani.co.kr/rss/society/
+국제 http://www.hani.co.kr/rss/international/
+대중문화 http://www.hani.co.kr/rss/culture/
+스포츠 http://www.hani.co.kr/rss/sports/
+과학 http://www.hani.co.kr/rss/science/
+사설·칼럼 http://www.hani.co.kr/rss/opinion/
+만화만평 http://www.hani.co.kr/rss/cartoon/
+English Edition http://www.hani.co.kr/rss/english_edition/
+한겨레섹션 http://www.hani.co.kr/rss/specialsection/
+함께하는 교육 http://www.hani.co.kr/rss/education/
+토요판 http://www.hani.co.kr/rss/saturday/
+하니온리 http://www.hani.co.kr/rss/hanionly/
+한겨레온리 http://www.hani.co.kr/rss/hkronly/
+멀티하니 (사진뉴스) http://www.hani.co.kr/rss/multihani/
+주요기사 http://www.hani.co.kr/rss/lead/
+인기기사 http://www.hani.co.kr/rss/newsrank/
+
+동아닷컴
+[동아일보]전체기사 http://rss.donga.com/total.xml
+[동아일보]정치 http://rss.donga.com/politics.xml
+[동아일보]사회 http://rss.donga.com/national.xml
+[동아일보]경제 http://rss.donga.com/economy.xml
+[동아일보]국제 http://rss.donga.com/international.xml
+[동아일보]사설칼럼 http://rss.donga.com/editorials.xml
+[동아일보]의학과학 http://rss.donga.com/science.xml
+[동아일보]문화연예 http://rss.donga.com/culture.xml
+[동아일보]스포츠 http://rss.donga.com/sports.xml
+[동아일보]사람속으로 http://rss.donga.com/inmul.xml
+[동아일보]건강 http://rss.donga.com/health.xml
+[동아일보]레져 http://rss.donga.com/leisure.xml
+[동아일보]도서 http://rss.donga.com/book.xml
+[동아일보]공연 http://rss.donga.com/show.xml
+[동아일보]여성 http://rss.donga.com/woman.xml
+[동아일보]아동 http://rss.donga.com/child.xml
+[동아일보]여행 http://rss.donga.com/travel.xml
+[동아일보]생활정보 http://rss.donga.com/lifeinfo.xml
+[스포츠동아]야구nMLB http://rss.donga.com/sportsdonga/baseball.xml
+[스포츠동아]축구 http://rss.donga.com/sportsdonga/soccer.xml
+[스포츠동아]골프 http://rss.donga.com/sportsdonga/golf.xml
+[스포츠동아]종합 http://rss.donga.com/sportsdonga/sports_general.xml
+[스포츠동아]엔터테인먼트 http://rss.donga.com/sportsdonga/entertainment.xml
+
+세계일보
+[뉴스]최신기사 http://rss.segye.com/segye_recent.xml
+[뉴스]종합 http://rss.segye.com/segye_total.xml
+[뉴스]정치 http://rss.segye.com/segye_politic.xml
+[뉴스]국제 http://rss.segye.com/segye_international.xml
+[뉴스]경제 http://rss.segye.com/segye_economy.xml
+[뉴스]사회 http://rss.segye.com/segye_society.xml
+[뉴스]문화 http://rss.segye.com/segye_culture.xml
+[뉴스]스포츠 http://rss.segye.com/segye_sports.xml
+[뉴스]연예 http://rss.segye.com/segye_entertainment.xml
+[뉴스]피플 http://rss.segye.com/segye_people.xml
+[뉴스]오피니언 http://rss.segye.com/segye_opinion.xml
+[뉴스]전국 http://rss.segye.com/segye_local.xml
+[뉴스]탐사이슈 http://rss.segye.com/segye_task_force.xml
+[뉴스]패n글 http://rss.segye.com/segye_family.xml
+[뉴스]루트 http://rss.segye.com/segye_root.xml
+[뉴스]펀치뉴스 http://rss.segye.com/segye_punchnews.xml
+[뉴스]세계TV http://rss.segye.com/segye_segyeTV.xml
+
+매일경제
+헤드라인 http://file.mk.co.kr/news/rss/rss_30000001.xml
+문화ㆍ연예 http://file.mk.co.kr/news/rss/rss_30000023.xml
+실시간 속보 http://file.mk.co.kr/news/rss/rss_40300001.xml
+스포츠 http://file.mk.co.kr/news/rss/rss_50600001.xml
+경제 http://file.mk.co.kr/news/rss/rss_30100041.xml
+게임 http://file.mk.co.kr/news/rss/rss_50700001.xml
+정치 http://file.mk.co.kr/news/rss/rss_30200030.xml
+오피니언 http://file.mk.co.kr/news/rss/rss_30500041.xml
+사회 http://file.mk.co.kr/news/rss/rss_50400012.xml
+국제 http://file.mk.co.kr/news/rss/rss_30300018.xml
+기업ㆍ경영 http://file.mk.co.kr/news/rss/rss_50100032.xml
+증권 http://file.mk.co.kr/news/rss/rss_50200011.xml
+부동산 http://file.mk.co.kr/news/rss/rss_50300009.xml
+[특집기사]MBA http://file.mk.co.kr/news/rss/rss_40200124.xml
+[특집기사]머니 앤 리치스 http://file.mk.co.kr/news/rss/rss_40200003.xml
+영문뉴스 http://file.mk.co.kr/news/rss/rss_30800011.xml
+이코노미 http://file.mk.co.kr/news/rss/rss_50000001.xml
+시티라이프 http://file.mk.co.kr/news/rss/rss_60000007.xml
+
+한국경제
+주요뉴스 http://rss.hankyung.com/new/news_main.xml
+경제/금융 hhttp://rss.hankyung.com/new/news_economy.xml
+증권 http://rss.hankyung.com/new/news_stock.xml
+부동산 http://rss.hankyung.com/new/news_estate.xml
+산업/IT http://rss.hankyung.com/new/news_industry.xml
+국제뉴스 http://rss.hankyung.com/intl.xml
+정치 http://rss.hankyung.com/new/news_politics.xml
+사회 http://rss.hankyung.com/new/news_society.xml
+스포츠 http://rss.hankyung.com/new/news_sports.xml
+연애 http://rss.hankyung.com/new/news_enter.xml
+
+파이낸셜뉴스
+[실시간]전체기사 http://www.fnnews.com/rss/fn_realnews_all.xml
+[실시간]증권 http://www.fnnews.com/rss/fn_realnews_stock.xml
+[실시간]금융 http://www.fnnews.com/rss/fn_realnews_finance.xml
+[실시간]부동산 http://www.fnnews.com/rss/fn_realnews_realestate.xml
+[실시간]산업 http://www.fnnews.com/rss/fn_realnews_industry.xml
+[실시간]경제 http://www.fnnews.com/rss/fn_realnews_economy.xml
+[실시간]IT/과학 http://www.fnnews.com/rss/fn_realnews_it.xml
+[실시간]생활경제 http://www.fnnews.com/rss/fn_realnews_circulation.xml
+[실시간]국제 http://www.fnnews.com/rss/fn_realnews_international.xml
+[실시간]정치 http://www.fnnews.com/rss/fn_realnews_politics.xml
+[실시간]지역경제/사회 http://www.fnnews.com/rss/fn_realnews_society.xml
+[실시간]문화 http://www.fnnews.com/rss/fn_realnews_culture.xml
+[실시간]스포츠 http://www.fnnews.com/rss/fn_realnews_sports.xml
+[실시간]교육 http://www.fnnews.com/rss/fn_realnews_edu.xml
+[실시간]피플 http://www.fnnews.com/rss/fn_realnews_people.xml
+[많이본뉴스]전체기사 http://www.fnnews.com/rss/fn_manyview_all.xml
+[많이본뉴스]증권 http://www.fnnews.com/rss/fn_manyview_stock.xml
+[많이본뉴스]금융 http://www.fnnews.com/rss/fn_manyview_finance.xml
+[많이본뉴스]부동산 http://www.fnnews.com/rss/fn_manyview_realestate.xml
+[많이본뉴스]산업 http://www.fnnews.com/rss/fn_manyview_industry.xml
+[많이본뉴스]경제 http://www.fnnews.com/rss/fn_manyview_economy.xml
+[많이본뉴스]IT/과학 http://www.fnnews.com/rss/fn_manyview_it.xml
+[많이본뉴스]생활경제 http://www.fnnews.com/rss/fn_manyview_circulation.xml
+[많이본뉴스]국제 http://www.fnnews.com/rss/fn_manyview_international.xml
+[많이본뉴스]정치 http://www.fnnews.com/rss/fn_manyview_politics.xml
+[많이본뉴스]지역경제/사회 http://www.fnnews.com/rss/fn_manyview_society.xml
+[많이본뉴스]문화 http://www.fnnews.com/rss/fn_manyview_culture.xml
+[많이본뉴스]스포츠 http://www.fnnews.com/rss/fn_manyview_sports.xml
+[많이본뉴스]교육 http://www.fnnews.com/rss/fn_manyview_edu.xml
+[많이본뉴스]피스 http://www.fnnews.com/rss/fn_manyview_people.xml
+
+경향닷컴
+[경향신문]전체뉴스 http://www.khan.co.kr/rss/rssdata/total_news.xml
+[경향신문]오피니언 http://www.khan.co.kr/rss/rssdata/opinion.xml
+[경향신문]정치 http://www.khan.co.kr/rss/rssdata/politic.xml
+[경향신문]경제 http://www.khan.co.kr/rss/rssdata/economy.xml
+[경향신문]사회 http://www.khan.co.kr/rss/rssdata/society.xml
+[경향신문]문화 http://www.khan.co.kr/rss/rssdata/culture.xml
+[경향신문]IT과학 http://www.khan.co.kr/rss/rssdata/itnews.xml
+[경향신문]국제 http://www.khan.co.kr/rss/rssdata/world.xml
+[경향신문]스포츠 http://www.khan.co.kr/rss/rssdata/sports.xml
+[경향신문]매거진X http://www.khan.co.kr/rss/rssdata/mx.xml
+[경향신문]인물 http://www.khan.co.kr/rss/rssdata/people.xml
+[스포츠]스포츠전체 http://www.khan.co.kr/rss/rssdata/kh_sports.xml
+[스포츠]엔터테인먼트 http://www.khan.co.kr/rss/rssdata/kh_entertainment.xml
+[스포츠]펀 http://www.khan.co.kr/rss/rssdata/kh_fun.xml
+[스포츠]운세 http://www.khan.co.kr/rss/rssdata/kh_unse.xml
+[스포츠]기획 http://www.khan.co.kr/rss/rssdata/kh_special.xml
+
+노컷뉴스
+최신기사 http://rss.nocutnews.co.kr/nocutnews.xml
+정치 http://rss.nocutnews.co.kr/NocutPolitics.xml
+사회 http://rss.nocutnews.co.kr/NocutSocial.xml
+경제 http://rss.nocutnews.co.kr/NocutEconomy.xml
+산업 http://rss.nocutnews.co.kr/NocutIndustry.xml
+스포츠 http://rss.nocutnews.co.kr/NocutSports.xml
+지역 http://rss.nocutnews.co.kr/NocutLocal.xml
+세계 http://rss.nocutnews.co.kr/NocutGlobal.xml
+정보통신 http://rss.nocutnews.co.kr/NocutIT.xml
+연예 http://rss.nocutnews.co.kr/NocutEnter.xml
+문화/생활 http://rss.nocutnews.co.kr/NocutCulture.xml
+칼럼 http://rss.nocutnews.co.kr/NocutColum.xml
+기타 http://rss.nocutnews.co.kr/NocutEtc.xml
+노컷특종 http://rss.nocutnews.co.kr/NocutOnly.xml
+핫이슈 http://rss.nocutnews.co.kr/NocutHotissue.xml
+연속기획 http://rss.nocutnews.co.kr/NocutCplan.xml
+
+한국아이닷컴
+[데일리한국]전체 http://rss.hankooki.com/daily/dh_main.xml
+[데일리한국]정치 http://rss.hankooki.com/daily/dh_politics.xml
+[데일리한국]경제  http://rss.hankooki.com/daily/dh_economy.xml
+[데일리한국]사회 http://rss.hankooki.com/daily/dh_society.xml
+[데일리한국]국제 http://rss.hankooki.com/daily/dh_world.xml
+[데일리한국]IT·과학 http://rss.hankooki.com/daily/dh_it_tech.xml
+[데일리한국]문화 http://rss.hankooki.com/daily/dh_culture.xml 
+[데일리한국]라이프 http://rss.hankooki.com/daily/dh_life.xml
+[데일리한국]칼럼 http://rss.hankooki.com/daily/dh_column.xml
+[데일리한국]연재물 http://rss.hankooki.com/daily/dh_series.xml
+[데일리한국]비즈브리핑 http://rss.hankooki.com/daily/dh_biz.xml
+[스포츠한국]전체 http://rss.hankooki.com/sports/sp_main.xml
+[스포츠한국]야구 http://rss.hankooki.com/sports/sp_baseball.xml
+[스포츠한국]축구 http://rss.hankooki.com/sports/sp_soccer.xml
+[스포츠한국]스포츠종합 http://rss.hankooki.com/sports/sp_sports.xml
+[스포츠한국]연예 http://rss.hankooki.com/sports/sp_entv.xml
+[스포츠한국]라이프 http://rss.hankooki.com/sports/sp_life.xml
+[스포츠한국]연재물 http://rss.hankooki.com/sports/sp_series.xml
+[스포츠한국]경제 http://rss.hankooki.com/sports/sp_economy.xml
+[스포츠한국]시사 http://rss.hankooki.com/sports/sp_sisa.xml
+[스포츠한국]문화 http://rss.hankooki.com/sports/sp_culture.xml
+[소년한국일보]전체 http://rss.hankooki.com/kids/kd_main.xml
+[소년한국일보]어린이뉴스 http://rss.hankooki.com/kids/kd_news.xml
+[소년한국일보]배움터 http://rss.hankooki.com/kids/kd_learn.xml
+[소년한국일보]글나라 책마을 http://rss.hankooki.com/kids/kd_book.xml
+[소년한국일보]비둘기기자 http://rss.hankooki.com/kids/kd_reporter.xml
+[소년한국일보]NIE와 논술 http://rss.hankooki.com/kids/kd_nie.xml
+[소년한국일보]놀이터 http://rss.hankooki.com/kids/kd_play.xml
+[소년한국일보]문화·체험 http://rss.hankooki.com/kids/kd_culture.xml
+[매거진/기타]많이 본 기사 http://rss.hankooki.com/manygisa/list.xml
+
+국민일보
+전체기사 http://rss.kmib.co.kr/data/kmibRssAll.xml
+정치 http://rss.kmib.co.kr/data/kmibPolRss.xml
+경제 http://rss.kmib.co.kr/data/kmibEcoRss.xml
+사회 http://rss.kmib.co.kr/data/kmibSocRss.xml
+국제 http://rss.kmib.co.kr/data/kmibIntRss.xml
+스포츠 http://rss.kmib.co.kr/data/kmibSpoRss.xml
+문화 http://rss.kmib.co.kr/data/kmibCulRss.xml
+생활 http://rss.kmib.co.kr/data/kmibLifRss.xml
+사설/칼럼 http://rss.kmib.co.kr/data/kmibColRss.xml
+기독교계 소식 http://rss.kmib.co.kr/data/kmibChrRss.xml
+겨자씨 http://rss.kmib.co.kr/data/kmibSeedRss.xml
+역경의 열매 http://rss.kmib.co.kr/data/kmibAdvRss.xml
+가정예배 http://rss.kmib.co.kr/data/kmibWorRss.xml
+
+디지털데일리
+IT정책 http://www.ddaily.co.kr/DATA/rss/ddaily_rss_itpolicy.xml
+통신·방송 http://www.ddaily.co.kr/DATA/rss/ddaily_rss_broadcast.xml
+e비즈·솔루션 http://www.ddaily.co.kr/DATA/rss/ddaily_rss_ebiz.xml
+보안 http://www.ddaily.co.kr/DATA/rss/ddaily_rss_security.xml
+콘텐츠 http://www.ddaily.co.kr/DATA/rss/ddaily_rss_contents.xml
+기업문화 http://www.ddaily.co.kr/DATA/rss/ddaily_rss_culture.xml
+산업 http://www.ddaily.co.kr/DATA/rss/ddaily_rss_industry.xml
+
+뉴스데일리
+전체기사 http://www.newsdaily.kr/rss/allArticle.xml 
+인기기사 http://www.newsdaily.kr/rss/clickTop.xml 
+종합뉴스 http://www.newsdaily.kr/rss/S1N1.xml 
+기획&특집 http://www.newsdaily.kr/rss/S1N2.xml 
+지역 http://www.newsdaily.kr/rss/S1N4.xml 
+뉴스플러스 http://www.newsdaily.kr/rss/S1N30.xml 
+시사기획 http://www.newsdaily.kr/rss/S1N32.xml 
+사회 http://www.newsdaily.kr/rss/S1N38.xml 
+문화 http://www.newsdaily.kr/rss/S1N39.xml 
+국제 http://www.newsdaily.kr/rss/S1N40.xml 
+연예·스포츠 http://www.newsdaily.kr/rss/S1N46.xml 
+봉사·나눔 http://www.newsdaily.kr/rss/S1N47.xml 
+경제 http://www.newsdaily.kr/rss/S1N49.xml 
+부동산 http://www.newsdaily.kr/rss/S1N50.xml 
+정치 http://www.newsdaily.kr/rss/S1N51.xml 
+경찰 http://www.newsdaily.kr/rss/S1N52.xml 
+오피니언 http://www.newsdaily.kr/rss/S1N53.xml 
+법원 http://www.newsdaily.kr/rss/S1N54.xml 
+검찰 http://www.newsdaily.kr/rss/S1N55.xml 
+헌법재판소 http://www.newsdaily.kr/rss/S1N56.xml 
+해양경찰 http://www.newsdaily.kr/rss/S1N57.xml 
+기업뉴스 http://www.newsdaily.kr/rss/S1N58.xml 
+인사·인물동정 http://www.newsdaily.kr/rss/S1N59.xml 
+
+코리아헤럴드
+[헤럴드경제]전체기사 http://biz.heraldcorp.com/common/rss_xml.php?ct=0
+[헤럴드경제]뉴스 http://biz.heraldcorp.com/common/rss_xml.php?ct=1
+[헤럴드경제]오피니언 http://biz.heraldcorp.com/common/rss_xml.php?ct=2
+[헤럴드경제]연예ㆍ스포츠 http://biz.heraldcorp.com/common/rss_xml.php?ct=3
+[헤럴드경제]재테크 http://biz.heraldcorp.com/common/rss_xml.php?ct=4
+[헤럴드경제]라이프 http://biz.heraldcorp.com/common/rss_xml.php?ct=5
+[헤럴드경제]게임세상 http://biz.heraldcorp.com/common/rss_xml.php?ct=6
+[코리아헤럴드]전체기사 http://biz.heraldcorp.com/common/rss_xml.php?ct=101
+[코리아헤럴드]Nation http://biz.heraldcorp.com/common/rss_xml.php?ct=102
+[코리아헤럴드]Business http://biz.heraldcorp.com/common/rss_xml.php?ct=103
+[코리아헤럴드]Life & Style http://biz.heraldcorp.com/common/rss_xml.php?ct=104
+[코리아헤럴드]Entertainment http://biz.heraldcorp.com/common/rss_xml.php?ct=105
+[코리아헤럴드]Sports http://biz.heraldcorp.com/common/rss_xml.php?ct=106
+[코리아헤럴드]World http://biz.heraldcorp.com/common/rss_xml.php?ct=107
+[코리아헤럴드]Opinion http://biz.heraldcorp.com/common/rss_xml.php?ct=108
+
+코리아타임즈
+All News http://www.ktimes.com/www/rss/rss.xml
+North Korea http://www.ktimes.com/www/rss/northkorea.xml
+Entertainment http://www.ktimes.com/www/rss/entertainment.xml
+Opinion http://www.ktimes.com/www/rss/opinion.xml
+National http://www.ktimes.com/www/rss/nation.xml
+Economy http://www.ktimes.com/www/rss/biz.xml
+Biz&Tech http://www.ktimes.com/www/rss/tech.xml
+Culture http://www.ktimes.com/www/rss/arts.xml
+Sports http://www.ktimes.com/www/rss/sprots.xml
+World http://www.ktimes.com/www/rss/world.xml
+
+시사IN
+전체기사 http://ph.sisain.co.kr/rss/01.xml
+인기기사 http://ph.sisain.co.kr/rss/02.xml
+커버 스토리 http://ph.sisain.co.kr/rss/2049643983.xml
+특집 http://ph.sisain.co.kr/rss/2049643984.xml
+2017 대선 http://ph.sisain.co.kr/rss/1489972632.xml
+정치 http://ph.sisain.co.kr/rss/1449643804.xml
+경제 http://ph.sisain.co.kr/rss/1449643805.xml
+사회 http://ph.sisain.co.kr/rss/1449643806.xml
+문화 http://ph.sisain.co.kr/rss/1449643807.xml
+국제·한반도 http://ph.sisain.co.kr/rss/1449643808.xml
+인터뷰·오피니언 http://ph.sisain.co.kr/rss/1449643811.xml
+교육 http://ph.sisain.co.kr/rss/1459479119.xml
+라이프 http://ph.sisain.co.kr/rss/1459479127.xml
+사진 http://ph.sisain.co.kr/rss/1459479154.xml
+만화 http://ph.sisain.co.kr/rss/1459479158.xml
+책꽂이 http://ph.sisain.co.kr/rss/1449643813.xml
+시사인놀이터 http://ph.sisain.co.kr/rss/1449643816.xml
+삭제된기사모음 http://ph.sisain.co.kr/rss/1515118004.xml
