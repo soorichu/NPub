@@ -1,9 +1,11 @@
 #-*- coding: utf-8 -*-
 import sys
-from PyQt5 import QtCore, QtGui, QtWidgets
+
+from PyQt5 import QtWidgets
 from dialog import Ui_Dialog
+
 import KoreanNewsEpub
-import NCastToEpub
+from core import NCastToEpub
 
 
 class NewsPaperMaker(Ui_Dialog):
@@ -22,7 +24,7 @@ class NewsPaperMaker(Ui_Dialog):
 
     def ok(self):
         if self.news != 0:
-            ns = KoreanNewsEpub.KoreanNewsEpub(self.news-1, self.many)
+            ns = KoreanNewsEpub.KoreanNewsEpub(self.news - 1, self.many)
         if self.ncast != 0:
             cs = NCastToEpub.ContentToEpub(self.ncast - 1)
         sys.exit(app.exec_())

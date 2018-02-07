@@ -6,14 +6,14 @@
 #
 # WARNING! All changes made in this file will be lost!
 
-from PyQt5 import QtCore, QtGui, QtWidgets
-import requests
-from bs4 import BeautifulSoup
-import NCastJson
-import NewsJson
-from NCastToEpub import NCastToEpub
-from ContentToEpub import ContentToEpub
 import os
+
+import requests
+from PyQt5 import QtCore, QtGui, QtWidgets
+from bs4 import BeautifulSoup
+
+from core import NCastJson, NCastToEpub, NewsJson, ContentToEpub
+
 
 class Ui_Dialog(object):
     def setupUi(self, Dialog):
@@ -313,7 +313,7 @@ class Ui_Dialog(object):
                 rss += "&page=" + str(self.ncast_page)
                 self.ncast_subject['subs']['rss'] = rss
                 print(self.ncast_subject)
-                ne = NCastToEpub('ncast', self.ncast_subject)
+                ne = NCastToEpub.NCastToEpub('ncast', self.ncast_subject)
                 sys.exit(app.exec_())
             else:
                 print("모두 선택해주세요.")
@@ -331,13 +331,13 @@ class Ui_Dialog(object):
             for url in urls:
                 print(url)
                 if len(url) > 1:
-                    cp = ContentToEpub(language, "html", url, False)
+                    cp = ContentToEpub.ContentToEpub(language, "html", url, False)
             sys.exit(app.exec_())
         elif selected_tab == 3:
             language = self.lang_code[self.comboBox_7.currentIndex()]
             print(self.checkBox.isChecked())
             for file in self.file_list:
-                cp = ContentToEpub(language, "text", self.dir +"/"+file, self.checkBox.isChecked())
+                cp = ContentToEpub.ContentToEpub(language, "text", self.dir + "/" + file, self.checkBox.isChecked())
             sys.exit(app.exec_())
 
 

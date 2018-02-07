@@ -119,7 +119,7 @@ class NewsToEpub:
         rss = CONTENT['subs']['rss']
         date = datetime.now().strftime('%Y-%m-%d')
         time = datetime.now().strftime('%H:%M')
-        parent_dir_name = './content'
+        parent_dir_name = '../content'
         dir_name = parent_dir_name + '/OEBPS'
         uuid = "b66f0af5-0fb2-4627-b972-dx"+"{0:10}".format(random.randrange(1, 1000000000))
 #        zip = zipfile.ZipFile('epub.zip')
@@ -128,7 +128,7 @@ class NewsToEpub:
 
         if os.path.isdir(parent_dir_name):
             self.remove_dir_tree(parent_dir_name)
-        shutil.copytree('epub-sample', parent_dir_name)
+        shutil.copytree('../epub-sample', parent_dir_name)
 
 #        os.mkdir(parent_dir_name)
 #        os.mkdir(dir_name)
