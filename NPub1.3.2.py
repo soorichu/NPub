@@ -219,7 +219,7 @@ class Ui_Dialog(object):
         self.news = NewsJson.News
         for ns in self.news:
             self.comboBox.addItem(ns['title'])
-            print(ns['title'])
+        #    print(ns['title'])
 
         self.comboBox.activated.connect(self.news_select)
         self.comboBox_3.activated.connect(self.ncast_select)
@@ -312,30 +312,32 @@ class Ui_Dialog(object):
 
                 rss += "&page=" + str(self.ncast_page)
                 self.ncast_subject['subs']['rss'] = rss
-                print(self.ncast_subject)
+            #    print(self.ncast_subject)
                 ne = NCastToEpub.NCastToEpub('ncast', self.ncast_subject)
                 sys.exit(app.exec_())
             else:
-                print("모두 선택해주세요.")
+            #    print("모두 선택해주세요.")
+                pass
         elif selected_tab == 0:
             if len(self.news_subject)>1:
                 self.news_number = self.spinBox.value()
                 if self.radioButton.isChecked():
                     self.news_format = 'txt'
             else:
-                print("모두 선택해주세요.")
+            #    print("모두 선택해주세요.")
+                pass
         elif selected_tab == 2:
             language = self.lang_code[self.comboBox_6.currentIndex()]
             urls = [self.lineEdit_1.text(), self.lineEdit_2.text(), self.lineEdit_3.text(), self.lineEdit_4.text(),
                     self.lineEdit_5.text(), self.lineEdit_6.text(), self.lineEdit_7.text(), self.lineEdit_8.text()]
             for url in urls:
-                print(url)
+            #    print(url)
                 if len(url) > 1:
                     cp = ContentToEpub.ContentToEpub(language, "html", url, False)
             sys.exit(app.exec_())
         elif selected_tab == 3:
             language = self.lang_code[self.comboBox_7.currentIndex()]
-            print(self.checkBox.isChecked())
+        #    print(self.checkBox.isChecked())
             for file in self.file_list:
                 cp = ContentToEpub.ContentToEpub(language, "text", self.dir + "/" + file, self.checkBox.isChecked())
             sys.exit(app.exec_())

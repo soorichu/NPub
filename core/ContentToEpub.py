@@ -29,6 +29,7 @@ class ContentToEpub(ToEpubCore):
         elif RANGE == "text":
             contents['title'], body = self.get_contents_title_text(contents['url'], LINEOFF)
 
+        RANGE = "ebook"
         self.make_file(dir_name + '/titlepage.xhtml', self.titlepagehtml(contents['title'], RANGE))
         self.make_file(dir_name + "/toc.ncx", self.tocncx_for_single(uuid, contents, LANGUAGE))
 
