@@ -17,11 +17,11 @@ class ToEpubCore:
         subarticles = []
         try:
             for s in soup_resource.select(selecting):
-                print(s)
+            #    print(s)
                 for t in s.get_all(tag):
-                    print(t)
+               #     print(t)
                     subarticles["url"] = t.get(attr)
-                    print(t.get(attr))
+                #    print(t.get(attr))
         except: pass
         return subarticles
 
@@ -43,7 +43,7 @@ class ToEpubCore:
                           ">", "(", ")", "\n", "\t", "\r", "|"]
         for ss in special_string:
             string = string.replace(ss, "", 10)
-        print(string)
+    #    print(string)
         return string
 
     def correctSubtitleEncoding(filename, newFilename, encoding_from, encoding_to='utf-8'):
@@ -57,7 +57,7 @@ class ToEpubCore:
         title = self.title_filter(os.path.basename(url))[:-4]
         body = ""
         file = open(url, 'r', encoding="utf-8")
-        print(file.encoding)
+     #   print(file.encoding)
         if lineoff:
             tmp_body = ""
             for line in file.readlines():
@@ -72,7 +72,7 @@ class ToEpubCore:
                         body += "<p>"+bo[i]+"</p>"
         else:
             for line in file.readlines():
-                print(line)
+        #        print(line)
                 body += "<p>"+line+"</p>"
 
         file.close()
@@ -88,13 +88,15 @@ class ToEpubCore:
         hs.append(soup.select('h3'))
         hs.append(soup.select('h4'))
         texts = soup.select('p')
+        texts.append(soup.select('div'))
         images_ = soup.select('img')
+     #   print(images_)
         images = []
         for i in images_:
             images.append(i['src'])
         orders = []
         for tag in soup.find_all(True):
-            if tag.name == "p" or tag.name == "img" or tag.name == "h1" or tag.name == "h2" or tag.name == "h3" or tag.name == "h4":
+            if tag.name == "p" or tag.name == "img" or tag.name == "h1" or tag.name == "h2" or tag.name == "h3" or tag.name == "h4" or tag.name=="div":
                 orders.append(tag.name)
                 #       print("{0}+{1} = {2} ? {3}".format(len(bodys), len(images), len(orders), len(bodys)+len(images)==len(orders)))
         return title, texts, images, orders
@@ -120,16 +122,20 @@ class ToEpubCore:
                     p += 1
                 elif e == 'i':
                     http_name = contents[n]['image'][i]
-                    if http_name.find(".jpg") > 1:
-                        new_name = str(ran)+str(i) + ".jpg"
-                    elif http_name.find(".png") > 1:
-                        new_name = str(ran)+str(i) + ".png"
-                    else:
-                        new_name = str(ran)+str(i) + ".gif"
-                    if self.image_attach(http_name, dir_name+'/images/'+new_name):
-                        body += "<p class='image'><img src='images/"+new_name+"'/></p>\n"
-                        image_tag = True
+                    if http_name[:4] == "http":
+                        if http_name.find(".jpg") or http_name.find(".JPG") > 1:
+                            new_name = str(ran)+str(i) + ".jpg"
+                        elif http_name.find(".png") or http_name.find(".PNG")> 1:
+                            new_name = str(ran)+str(i) + ".png"
+                        else:
+                            new_name = str(ran)+str(i) + ".gif"
+                        if self.image_attach(http_name, dir_name+'/images/'+new_name):
+                            body += "<p class='image'><img src='images/"+new_name+"'/></p>\n"
+                            image_tag = True
                     i += 1
+                else:
+                    body += "<"+e+">"+contents[n]['text'][p].text + "</"+e+">\n"
+                    p += 1
         return body
 
     def get_body_for_single(self, contents, dir_name):
@@ -194,7 +200,7 @@ class ToEpubCore:
                 <image width="1200" height="1600" xlink:href="'''+RANGE+'''_image.jpg"/>
             </svg>
         </div>
-    <p>※주의 : 이 책의 저작권은 '''+title+'''의해당 저자들에게 있습니다. 무단복제 및 무단배포할 경우 저작권법에 저촉될 수 있습니다.</p>
+    <p>※주의 : 이 책의 저작권은 ['''+title+''']의 해당 저자들에게 있습니다. 무단복제 및 무단배포할 경우 저작권법에 저촉될 수 있습니다.</p>
         <p>반드시 개인적으로 보아주시기 바랍니다.</p>
     </body>
 </html>
@@ -224,7 +230,7 @@ class ToEpubCore:
         for n in range(len(contents)):
             tocncx += '<navPoint id="np'+str(n+2)+'" playOrder="'+str(n+2)+'">\n'
             tocncx += '<navLabel><text>'+contents[n]['title']+'</text></navLabel>\n'
-            tocncx += '<content src="html.html#item'+str(n)+'"/></navPoint>'
+            tocncx += '<content src="index.html#item'+str(n)+'"/></navPoint>'
         tocncx += '''</navMap>
 </ncx>'''
         return tocncx

@@ -46,12 +46,10 @@ class NCastToEpub(ToEpubCore):
             elif tag.name == "img":
                 orders += "i"
  #       print("{0}+{1} = {2} ? {3}".format(len(bodys), len(images), len(orders), len(bodys)+len(images)==len(orders)))
-        return title, texts, images, orders[:-17]
+        return title, texts, images, orders[:-17]  #[:17] is difference. other is same..
 
 
     def MakeBook(self, RANGE, CONTENT):
-        RANGE = RANGE
-        CONTENT = CONTENT
         LANGUAGE = "ko"
         print(CONTENT)
         title = CONTENT['title']+"-"+ CONTENT['subs']['name']
