@@ -2,7 +2,7 @@
 	{
 		'title': '다음뉴스',
 		'get_url': ['link'],
-		'body_tag': 'div#mArticle'
+		'body_tag': 'div.article_view'
 	},
 	{
 		'title': '조선닷컴',

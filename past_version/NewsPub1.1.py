@@ -4,8 +4,8 @@ import sys
 from PyQt5 import QtWidgets
 from dialog import Ui_Dialog
 
-import KoreanNewsEpub
 from core import NCastToEpub
+from past_version import KoreanNewsEpub
 
 
 class NewsPaperMaker(Ui_Dialog):

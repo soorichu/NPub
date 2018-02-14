@@ -36,6 +36,11 @@ class ToEpubCore:
             return True
         except: return False
 
+    def html_special_filter(self, string):
+        special = ['"', '&', '<', '>', 'ⓒ']
+        for i in range(len(special)):
+            string = string.replace(special[i], "", 10)
+        return string
 
     def title_filter(self, string):
         string = string.replace("_", " ", 100)
@@ -78,7 +83,6 @@ class ToEpubCore:
         file.close()
         return title, body
 
-
     def get_contents_title_text_image_order(self, url):
         response = requests.get(url)
         soup = BeautifulSoup(response.content, "html.parser")
@@ -105,6 +109,7 @@ class ToEpubCore:
         image_tag = False
         body = ""
         for n in range(len(contents)):
+            body += "<hr/>"
             body += "<h2 id='item"+str(n)+"' >"+contents[n]['title']+"</h2>\n"
             ran = random.randrange(1000000)
             p, i = 0, 0
@@ -114,11 +119,14 @@ class ToEpubCore:
                         body += ""
                         image_tag = False
                     else:
-                    #    print(contents[n]['text'][p].text)
-                        if contents[n]['text'][p].text.find(">")>0 or contents[n]['text'][p].text.find("<")>0:
+                        try:
+                            tet = contents[n]['text'][p].text
+                        except:
+                            tet = contents[n]['text'][p][3:-4]
+                        if tet.find(">")>0 or tet.find("<")>0:
                             pass
-                        else: body += "<p>"+ contents[n]['text'][p].text+"</p>\n"
-
+                        else:
+                            body += "<p>"+tet+"</p>"
                     p += 1
                 elif e == 'i':
                     http_name = contents[n]['image'][i]
@@ -146,29 +154,30 @@ class ToEpubCore:
         for e in contents['order']:
             if e == 'p':
                 if(image_tag):
-                    body += "<p>" + contents['text'][p].text + "</p>\n"
+                    try: body += "<p>" + contents['text'][p].text + "</p>\n"
+                    except: pass
                     image_tag = False
                 else:
                 #    print(contents['text'][p].text)
-                    if contents['text'][p].text.find(">")>0 or contents['text'][p].text.find("<")>0:
-                          pass
-                    else: body += "<p>"+ contents['text'][p].text+"</p>\n"
-
+                    try:
+                        if contents['text'][p].text.find(">")>0 or contents['text'][p].text.find("<")>0: pass
+                        else: body += "<p>"+ self.html_special_filter(contents['text'][p].text)+"</p>\n"
+                    except: pass
                 p += 1
-            elif e == 'i':
-                http_name = contents['image'][i]
-                if http_name.find(".jpg") > 1:
-                     new_name = str(ran)+str(i) + ".jpg"
-                elif http_name.find(".png") > 1:
-                     new_name = str(ran)+str(i) + ".png"
-                else:
-                    new_name = str(ran)+str(i) + ".gif"
-                    if self.image_attach(http_name, dir_name+'/images/'+new_name):
-                        body += "<p class='image'><img src='images/"+new_name+"'/></p>\n"
-                        image_tag = True
+            elif e == 'img':
+                try:
+                    http_name = contents['image'][i]
+                    if http_name[-4:] == '.jpg' or http_name[-4:] == '.JPG' or http_name[-4:] == '.png' or \
+                        http_name[-4:] == '.PNG' or http_name[-4:] == '.gif' or http_name[-4:] == '.GIF':
+                        new_name = str(ran)+str(i)+http_name[-4:]
+                        if self.image_attach(http_name, dir_name+'/images/'+new_name):
+                            body += "<p class='image'><img src='images/"+new_name+"'/></p>\n"
+                            image_tag = True
+                except: pass
                 i += 1
             else:
-                body += "<"+e+">" + contents['text'][p].text + "</"+e+">\n"
+                try: body += "<"+e+">" + self.html_special_filter(contents['text'][p].text) + "</"+e+">\n"
+                except: pass
         return body
 
     def remove_dir_tree(self, remove_dir):

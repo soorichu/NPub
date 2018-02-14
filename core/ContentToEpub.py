@@ -42,4 +42,5 @@ class ContentToEpub(ToEpubCore):
         self.make_file(dir_name + "/content.opf", self.contentopf(uuid, date, time, contents['title'], dir_name))
 
         #save
-        self.make_epub(parent_dir_name, contents['title'])
+        print(1)
+        self.make_epub(parent_dir_name, self.title_filter(contents['title']))

@@ -176,7 +176,7 @@ class Ui_Dialog(object):
 
         #set labels
         self.lang_code = ["ko", "en", "zh", "ja", "fr", "de", "la"]
-        Dialog.setWindowTitle("NPub1.3")
+        Dialog.setWindowTitle("NPub1.4")
         self.label.setText("신 문 사")
         self.label_2.setText("소 분 류")
         self.label_3.setText("매     수")
